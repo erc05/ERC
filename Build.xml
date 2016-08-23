@@ -1,0 +1,15 @@
+<projectname='SPEC" defalult='C'>
+ <targetname='A'>
+  <echo="Target to be executed is A>
+  </echo>
+  </target>
+   <targetname='B' depends="A">
+  <echo="Target to be executed is B>
+  </echo>
+  </target>
+    <targetname='B' depends="B">
+  <echo="Target to be executed is C>
+  </echo>
+  </target>
+  </project>
+  
